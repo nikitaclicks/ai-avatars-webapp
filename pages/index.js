@@ -75,6 +75,7 @@ const Home = () => {
     setFinalPrompt(input);
     // Remove content from input box
     setInput('');
+    setLogs('');
     setImg(data.image);
     setIsGenerating(false);
   }
