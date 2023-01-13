@@ -59,7 +59,7 @@ const Home = () => {
 
     // If model still loading, drop that retry time
     if (response.status === 503) {
-      setLogs(`API is spinning up, wait ${data.estimated_time}ms`);
+      setLogs(`Model still loading after ${maxRetries} retries. Try request again in 5 minutes.`);
       setRetry(data.estimated_time);
       return;
     }
