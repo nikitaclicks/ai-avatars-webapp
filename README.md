@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Running Demo env
+
+May be running here: https://ai-avatars-webapp-production.up.railway.app/
+Refer to me as 'Nikita' or 'Nikitos' in the prompt. 
+This uses free compute resources, so it cold starts in up to 5 minutes. If that is the case, image will get generated after the boot up process. 
+
 ## Getting Started
 
 First, run the development server:
